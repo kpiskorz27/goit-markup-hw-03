@@ -182,3 +182,32 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+img {
+  display: block;
+}
+.header-standard {
+  border-bottom: 1px solid #e7e9fc;
+}
+.div-header-standard {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 76px;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+}
+.menu-li {
+  padding: 24px 0 24px 0;
+}
